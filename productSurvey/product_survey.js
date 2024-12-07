@@ -5,7 +5,7 @@ function submitFeedback() {
     const job = document.getElementById('job').value;
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
-    const feedback = document.getElementById('feedbackText').value;
+    const feedback = document.getElementById('userExperince').value;
 
     alert('Thank you for your valuable feedback!');
     document.getElementById('userName').innerHTML = username;
